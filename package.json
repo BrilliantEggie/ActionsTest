@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://BrilliantEggie.github.io/countTest",
+  "homepage":"https://BrilliantEggie.github.io/ActionsTest",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
