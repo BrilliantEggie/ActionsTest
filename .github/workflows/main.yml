@@ -11,8 +11,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: checkout
-        uses: actions/checkout@main
+      - name: checkout repository
+        uses: actions/checkout@v4
       - name: install
         run: yarn
       - name: build
@@ -25,6 +25,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
-          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: main
           FOLDER: dist
