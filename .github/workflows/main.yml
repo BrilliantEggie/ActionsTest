@@ -19,5 +19,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN2 }}
-          BRANCH: test-branch1
+          BRANCH: main
           FOLDER: dist
