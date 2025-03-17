@@ -32,7 +32,7 @@ function App() {
       </p>
       <Counter />
       <CounterReducer />
-      <p>Test 1212</p>
+      <p>Test 121212</p>
     </>
   )
 }
